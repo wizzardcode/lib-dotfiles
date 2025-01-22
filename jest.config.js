@@ -12,4 +12,5 @@ export default {
 	},
 	testMatch: ["**/src/**/*.(test|spec).ts"],
 	testPathIgnorePatterns: ["/node_modules/"],
+	moduleNameMapper: { "^src/(.*)$": "<rootDir>/src/$1" },
 }
